@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:green;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#Home">Home</a>
+  <a href="Davidslone/About.html">About</a>
+  <a href="Davidslone/contact.html">Contact</a>
+  <input type="text" placeholder="Search..">
+</div>
+
+<div style="padding-left:16px">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color:white;
+  font-size: 40px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 10px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1.0s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+<BODY BGcolor=cyan"></BODY:>
+<center><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/Bubi.png" alt="KCPSA Logo"
+	style="width: 100px; height: 100px;"></center>
+	<center><u><h1 style="font-family:Arial Rounded MT Bold;">KIBAALE COMMUNITY PRIMARY SCHOOL ALUMNI</h1></u></center>
+	<center><h2 style="font-family:Cambria;">QUALITY NEVER FADES</h2></center>
+	<center><h3 style="font-family:Georgia;">WELCOME TO KCPSA WEBSITE</h3></center>
+	<h4 style="font-size:50;">NEWS</h4>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/pa.jpg" style="width:100%">
+  <div class="text">COME TOGETHER ALUMNI AND SCHOOL'S PARTY scheduled to take place in the month of June 2024 at the school in Kibaale Town, COME ONE, COME ALL!!!!!</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/LS.PNG" style="width:100%">
+  <div class="text">Alumni Tshirts for sale at only ugshs.25000/=.Some of the Alumni smartly dressed in their Alumni Tshirts.</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/DIR and HM.jpg" style="width:100%">
+  <div class="text">The Director and the headteacher in the director's office during one of the visits to the school.</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 8 seconds
+}
+</script>
+</div>
+<center><h3 style="font-family:Agency FB;">WHAT OTHERS SAY</h3></center>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 1500px; /
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h2>Some of the Alumni sharing their experiences</h2> 
+<div class="row">
+  <div class="column" style="background-color:cyan;"
+<style>
+</style>
+</head>
+<body>
+
+<p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/David.jpg" alt="David" style="width:200px;height:250px;margin-right:15px;">
+Praise the Lord...Kibaale community Nursery and Primary School Hurray!!! Am so delighted to be part of this family, this great institution of learning; By God's grace i joined this institution in the year 2006 in my baby class,I saw alot of transitions until i completed my PLE in 2014. This amazing society i can call my second home groomed me academically, socially, religiously and physically and i hope it is the same case today such that every learner who goes through this institution doesnot remain the same. i will live to tell about the different approach this junior institution used to make us different from the rest and i pledge to associate and support this institution as long as i can. To the school administration and staff, thanks for the commendable work, i believe alot more is to come. To the learners, it all begins by realising who you are, your potentials and what you hope to be in the future, prayer, discipline and hardwork are the keys to sucess. Long live the school staff, the proprietors, Alumni and entire Kibaale Community Nursery and Primary School fraternity. Righteousness Exalts The Nation...DAVID SAMANYA.</p>
+
+<p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/Shamira.jpg" alt="Shamira" style="width:200px;height:250px;margin-right:15px;">
+My Name is Namusabi shamira, luckly enough, am among those individuals who happened to begin my academic journey from nursery until primary seven in this institution; i thank everyone especially my teachers for the tireless efforts they made to make our study a sucess, am also grateful to my classmates who some become brothers and sisters to me, and i thank Allah who guided my parents to bring me here in this great institution. Recently i have been observing the excellence our school has attained especially in PLE, I pray that may you keep the candle burning. To the learners, this is the first step of your academic journey, take time, handle it with care, build a strong foundation and network because this is what you will need in your future, long live Kibaale Community nursery and primary school.</p>
+<p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/lastone.jpg" alt="Lastone" style="width:200px;height:250px;margin-right:15px;">
+Ladies and Gentlemen, i acknowledge the contribution of the management of kibaale community primary school in laying a firm and strong foundation for our school, am very previledged because it has shaped my foundation also. To my fellow OGs and Obs, am very delighted to be with you, let us be proud of our school, believe in ourselves because believing in your self in the first secrete to sucess. To the learners of kibaale community nursery and primary school, never lose hope, the beginning is always the hardest. though they are hard, it doesnt mean that they are impossible because with God everything everything is possible. Righteousness excalts the nation, long live our beloved school....ISIIKO LASTONE.</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+<p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/hus.jpg" alt="Hussien" style="width:200px;height:250px;margin-right:15px;">
+My name is Hussein Waibi, i studied from kibaale community nursery and primary school from my primary one to primary seven, it was an exciting environment full of loving people. i thank my teachers and my friends who made stay at this school memorable. I promise to uplift and promote the image of this school and advertise it on many platforms as long as i can. Am also an old boy of St Patrick's SS Nabisoigi, Jinja progressive Academy and now currently pursuing a bachelors degree of science in education at kyambogo university.</p>
+ <p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/Brenda.jpg" alt="Brenda" style="width:250px;height:380px;margin-right:15px;">
+Hello friends, the Obs and Ogs of our mighty school, i greet you all in the Name of our Lord, i finished my PLE in 2023, am really so delighted to be with you people as a family. I say all this because of the sweet memories we created together, the good mentorship and peaceful upbringing that i percieved throughout my primary education at Kibaale Community Nursery and Primary School; Thank you so much as we look forward to building for the future...NAIRUBA BRENDA</p>
+<p><img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/Masa.jpg" alt="Massa" style="width:200px;height:300px;margin-right:15px;">
+Dear esteemed Obs and Ogs, its an honour to address you today, reflecting on the invaluable journey that we shared at our beloved alma mater, let's revisit the essence of our school motto "Righteousness Exalts The Nation" this timeless wisdom instilled in us the significance of moral values in shaping not just our lives but contributing positively to our community.Education has been the cornerstone of our growth, team work is then another crucial lesson imparted in us by our school; As we navigate our respective careers, let us priotize and embrace professionalism and opportunities that come our way. Let the echoes of our alma mater inspire us to uphold the values of righteousness, education, teamwork and professionalism. Thank you everyone, Long live Kibaale Community Nursery And Primary School...MASSA INNOCENT</p>
+</div
+
+<!DOCTYPE html>
+<html>
+<head>
+<BODY BGCOLOR="cyan"></BODY>
+
+<h3><b><center>DESCRIPTION</center></b></h3>
+<p><center>KCPSA is an abbreviation for Kibaale Community Primary School Alumni which is an association of the old boys and girls of Kibaale Community Nursery and Primary School located in Kibaale Town Council, Namutumba district;This body is made up of different old learners of this institution  who are currently dispersed in different higher institutions of learning, working places and many other aspects of life. We are headed by many coordinators who in association with all the Obs and Ogs mobilise and coordinate various projects, we haven't established a basing place but the responsibilities have been distributed amongst different individuals and sometimes in junction with our patron based at school.</center></p>
+
+<h4><b><center>BACKGROUND.</center></b></h4>
+<p><center>In the month of December 2023,We came up with the idea of forming a whatsApp group called Kibaale Community Primary School Alumni. As more old boys and girls where being added into the group, they suggested that we elevate the WhatsApp group into an associaton and on 1st January 2024, KCPSA was formed made up of about 30 pioneer members. The group has continously expanded including even wellwishers who associate with us. Primary Seven Leavers of every academic year are automatically part of this association immediately after their last PLE paper unless otherwise stated by the school or particular individual or the person is a public nuisance.</center></p>
+<h5><b><center>GOALS AND OBJECTIVES</center></b></h5>
+<p><center><b>As people who have ever passed through this institution, we would wish to associate with this school because it's our family, we would wish to extend some services in our capacity to the school through the following ways.</b></center></p>
+<p><center>First of all, we hope to foster unity among the different Alumni who have been through the school system at different times, to increase our interaction, sharing of ideas and form a strong dispersed network all over the world.</center></p>
+<p><center>To form a common link with the school as an organized society, to air out our ideas on some issues when called upon and make it easier to locate and identify ourselves as Alumni of Kibaale Community Nursery and Primary School. </center></p>
+<p><center>To provide scholastic materials such as books, pens, pencils, sanitary pads, sets, rulers to the less previlged learners so as to boast their academics because we understand what it means to lack such essential academic items and how it impacts on performance of the learner.</center></p>
+ <p><center>Through co-curricular activities such as football, netball, volleyball and athletics competitions, we hope to promote talents of both the learners and the Alumni and also foster unity at such moments. We hope to schedule these events to occur always at a specified Sports Day after a given time interval. </center></p>
+ <p><center>Since Agriculture is the back bone in our society, we hope to establish projects such as poultry farming, passion fruit growing, banana farming among others; we hope to use this to promote agricultural skills amongst the learners, old boys and girls and entire society at large.</center></p>
+</main>
+</body>
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Image grid for members</h1>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/shifa.png" style="width:50%">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/deo.jpg" style="width:50%">
+  </div>
+  <div class="column">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/mariam.jpg" style="width:50%">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/geo.jpg" style="width:50%">
+  </div>  
+  <div class="column">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/jude.jpg" style="width:50%">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/waka.jpg" style="width:50%">
+  </div>
+  <div class="column">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/vio.jpg" style="width:50%">
+  <img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/mebra.jpg" style="width:50%">
+  </div>
+</div>
+
+</body>
+</html>
+
+ 
+
+
+<footer>
+ <p><b>Contact information</b></p>
+<p>P.O Box 179, Busembatia</p>
+<p><b>Email:</b>kibaalecommunityprimaryschoolalumni@gmail.com</p>
+<p><b>Tell/WhatsApp:</b>0773992871 0r 0756220403</p></footer>
+<img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/call.jpg" alt="Call" 
+style="width: 50px; height: 50px" align="right">
+<img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/Whatsapp.jpg" alt="whatsapp"
+style="width: 50px; height: 50px" align="right">
+<img src="C:\Users\saman\OneDrive\Documents\Desktop\Davidslone/em.jpg" alt="Email" 
+Style="width: 50px; height: 50px" align="right">
+  <p><center>All rights reserved @KCPSA 2024</center></p>
+</footer>
+
+</body>
+</html>
+
